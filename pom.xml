@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>spring_boot_backend_template</artifactId>
+	<artifactId>backend</artifactId>
 	<version>0.0.1</version>
-	<name>spring_boot_backend_template</name>
+	<name>backend</name>
 	<description>Template Project for Spring Boot based Backend </description>
 	<properties>
 		<java.version>11</java.version>
