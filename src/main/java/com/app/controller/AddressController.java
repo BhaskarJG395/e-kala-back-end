@@ -22,6 +22,7 @@ import com.app.services.interfaces.AddressService;
 
 @RestController
 @RequestMapping("/address")
+@CrossOrigin(origins="http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app")
 public class AddressController {
 	
 	@Autowired
