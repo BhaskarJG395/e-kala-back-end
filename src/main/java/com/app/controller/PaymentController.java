@@ -17,7 +17,7 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
 @RequestMapping("/payments")
-@CrossOrigin(origins="http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app")
+@CrossOrigin(origins={"http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app"})
 public class PaymentController {
 	@Autowired
 	private PaymentService paymentService;
