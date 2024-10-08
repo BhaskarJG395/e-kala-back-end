@@ -19,7 +19,7 @@ import com.app.services.interfaces.UserService;
 
 @RestController
 @RequestMapping("/users")
-@CrossOrigin(origins="http://localhost:3000")
+@CrossOrigin(origins="http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app")
 public class UserController {
 	@Autowired
 	UserService userservice;
