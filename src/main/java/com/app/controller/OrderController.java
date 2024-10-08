@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.parameters.RequestBody;
 
 @RestController
 @RequestMapping("/orders")
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin(origins="http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app")
 public class OrderController {
 	
 	@Autowired
