@@ -31,7 +31,7 @@ public class Application {
 		    public void addCorsMappings(CorsRegistry registry) {
 		        registry.addMapping("/**")  // Apply CORS settings to all endpoints
 		            .allowedOrigins("http://localhost:3000")  // Allow requests from this origin
-		            .allowedOrigins("https://gorgeous-moonbeam-bcf21d.netlify.app")  // Allow requests from this origin
+		            .allowedOrigins("https://sobikola.netlify.app")  // Allow requests from this origin
 		            .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "UPDATE")  // Allow these HTTP methods
 		            .allowedHeaders("*")  // Allow all headers
 		            .allowCredentials(true);  // Allow credentials (e.g., cookies)
