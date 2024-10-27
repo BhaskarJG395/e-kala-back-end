@@ -27,7 +27,7 @@ import com.app.services.interfaces.ArtServices;
 
 @RestController	
 @RequestMapping("/Art")
-@CrossOrigin(origins={"http://localhost:3000","https://gorgeous-moonbeam-bcf21d.netlify.app"})
+@CrossOrigin(origins="http://localhost:3000")
 public class ArtController {
 	
 	@Autowired
